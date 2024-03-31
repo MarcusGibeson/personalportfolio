@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" th:href="@{/css/homepage.css}" />
+    <!-- Tab title -->
+    <title>Marcus Gibeson Portfolio</title>
+</head>
+
+<body>
+    
+    <nav>
+        <section id="navigation">
+            <div>
+                <a th:href="@{/timeline}" id="timeline-link">
+                    <span class="navigation">Timeline</span>
+                </a>
+            </div>
+           
+            <div>
+                <a th:href="@{/aboutMe}" id ="homepage-link">
+                    <span class="navigation">About me</span>
+                </a>
+            </div>
+
+            <div>
+                <a th:href="@{/projects}" id="projects-link">
+                    <span class="navigation">Projects</span>
+                </a>
+            </div>
+        </section>
+    </nav>
+    
+    <h1>Marcus Gibeson</h1>
+
+
+</body>
+</html>
